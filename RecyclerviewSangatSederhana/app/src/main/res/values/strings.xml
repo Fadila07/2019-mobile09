@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">RecyclerviewSangatSederhana</string>
+    <string name="name">Name</string>
+    <string name="alamat">Alamat</string>
+    <string name="tiket">Tiket</string>
 </resources>
