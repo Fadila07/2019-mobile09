@@ -1,6 +1,7 @@
 package id.ac.polinema.recyclerviewsangatsederhana;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -43,5 +44,6 @@ public class Tugas1dan2 extends AppCompatActivity {
         WisataAdapter wisataAdapter = new WisataAdapter(wisataList);
         rvwisata.setAdapter(wisataAdapter);
         rvwisata.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
+        rvwisata.setLayoutManager(new GridLayoutManager(this, 3));
     }
 }
